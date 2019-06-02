@@ -1,6 +1,9 @@
 ![katoolin](https://cloud.githubusercontent.com/assets/8742190/9415562/83397aae-4840-11e5-8f72-28dfffcc70a9.png)
-# katoolin
+# Katoolin Robust
 Automatically install all Kali linux tools
+
+# New in this fork
+Installs of multiple packages are performed sequentially rather than in bulk, so the install process doesn't fail if one or more packages fails to install
 
 # Features
 - Add Kali linux repositories
@@ -15,7 +18,7 @@ Automatically install all Kali linux tools
 - sudo su
 - git clone https://github.com/LionSec/katoolin.git && cp katoolin/katoolin.py /usr/bin/katoolin
 - chmod +x /usr/bin/katoolin
-- sudo katoolin 
+- sudo katoolin
 
 # Video
 https://www.youtube.com/watch?v=8VxCWVoZEEE

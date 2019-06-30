@@ -16,7 +16,7 @@ Installs of multiple packages are performed sequentially rather than in bulk, so
 
 # Installation
 - sudo su
-- git clone https://github.com/LionSec/katoolin.git && cp katoolin/katoolin.py /usr/bin/katoolin
+- git clone https://github.com/mkrupczak3/Katoolin-Robust.git && cp katoolin/katoolin.py /usr/bin/katoolin
 - chmod +x /usr/bin/katoolin
 - sudo katoolin
 

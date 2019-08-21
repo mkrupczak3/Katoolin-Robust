@@ -5,6 +5,9 @@ Automatically install all Kali linux tools
 # New in this fork (from [Katoolin](https://github.com/LionSec/katoolin))
 Installs of multiple packages are performed sequentially rather than in bulk, so the install process doesn't fail if one or more packages fails to install
 
+# Forker's note:
+If you are interested in maintaining this fork as a hard fork alternative to Lionsec's Katoolin (non responsive to PR's and issues) please create an issue and assign me as a assigne and I'll consider transfering ownership. PR's are also welcome.
+
 # Features
 - Add Kali linux repositories
 - Remove kali linux repositories
@@ -33,18 +36,21 @@ https://www.youtube.com/watch?v=8VxCWVoZEEE
 # Warning
 Before updating your system , please remove all Kali-linux repositories to avoid any kind of problem .
 
-# I have some questions!
 
-Please visit https://github.com/LionSec/katoolin/issues
+
+# I have some questions!
+_forker's note: Lionsec does not appear to be responding to most forms of contact_
+
+~~Please visit https://github.com/LionSec/katoolin/issues
 
 # Donations
 - Paypal : https://www.paypal.me/lionsec
 - skrill : informatica98es@gmail.com
 
 
-# Contact
+~~# Contact
 - Website : https://neodrix.com
-- Youtube : https://youtube.com/inf98es
+~~- Youtube : https://youtube.com/inf98es
 - Facebook : https://facebook.com/in98
-- Twitter: @LionSec1
+~~- Twitter: @LionSec1
 - Email : informatica98es@gmail.com

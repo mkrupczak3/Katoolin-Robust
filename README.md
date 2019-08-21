@@ -2,7 +2,7 @@
 # Katoolin Robust
 Automatically install all Kali linux tools
 
-# New in this fork (from [Katoolin](https://github.com/LionSec/katoolin)
+# New in this fork (from [Katoolin](https://github.com/LionSec/katoolin))
 Installs of multiple packages are performed sequentially rather than in bulk, so the install process doesn't fail if one or more packages fails to install
 
 # Features

@@ -5,7 +5,8 @@ import sys, traceback
 
 
 if os.getuid() != 0:
-	print "Sorry. This script requires sudo privledges"
+	print ("Error: This script must be run as a sudo priviledged user.")
+	print ("Ex: sudo python " + sys.argv[0] + "\n")
 	sys.exit()
 def main():
 	try:
@@ -53,15 +54,15 @@ def main():
  \033[1;32m+ -- -- +=[ 331 Tools \033[1;m
 
 
-\033[1;91m[W] Before updating your system , please remove all Kali-linux repositories to avoid any kind of problem .\033[1;m
+\033[1;91m[W] Before updating your system, please remove all Kali Linux repositories to avoid any problems.\033[1;m
 		''')
 
 		def inicio1():
 			while True:
 				print ('''
-1) Add Kali repositories & Update
+1) Add Kali Linux repositories & update
 2) View Categories
-3) Install classicmenu indicator
+3) Install ClassicMenu Indicator
 4) Install Kali menu
 5) Help
 
@@ -71,23 +72,23 @@ def main():
 
 				while opcion0 == "1":
 					print ('''
-1) Add kali linux repositories
+1) Add Kali Linux repositories
 2) Update
-3) Remove all kali linux repositories
+3) Remove all Kali Linux repositories
 4) View the contents of sources.list file
 
 					''')
 					repo = raw_input("\033[1;32mWhat do you want to do ?> \033[1;m")
 					if repo == "1":
 						cmd1 = os.system("apt-key adv --keyserver pool.sks-keyservers.net --recv-keys ED444FF07D8D0BF6")
-						cmd2 = os.system("echo '# Kali linux repositories | Added by Katoolin\ndeb http://http.kali.org/kali kali-rolling main contrib non-free' >> /etc/apt/sources.list")
+						cmd2 = os.system("echo '# Kali Linux repositories | Added by Katoolin\ndeb http://http.kali.org/kali kali-rolling main contrib non-free' >> /etc/apt/sources.list")
 					elif repo == "2":
 						cmd3 = os.system("apt-get update -m")
 					elif repo == "3":
 						infile = "/etc/apt/sources.list"
 						outfile = "/etc/apt/sources.list"
 
-						delete_list = ["# Kali linux repositories | Added by Katoolin\n", "deb http://http.kali.org/kali kali-rolling main contrib non-free\n"]
+						delete_list = ["# Kali Linux repositories | Added by Katoolin\n", "deb http://http.kali.org/kali kali-rolling main contrib non-free\n"]
 						fin = open(infile)
 						os.remove("/etc/apt/sources.list")
 						fout = open(outfile, "w+")
@@ -97,7 +98,7 @@ def main():
 						    fout.write(line)
 						fin.close()
 						fout.close()
-						print ("\033[1;31m\nAll kali linux repositories have been deleted !\n\033[1;m")
+						print ("\033[1;31m\nAll Kali Linux repositories have been deleted!\n\033[1;m")
 					elif repo == "back":
 						inicio1()
 					elif repo == "gohome":
@@ -159,7 +160,7 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 0) All
 
 			 ''')
-						print ("\033[1;32mSelect a category or press (0) to install all Kali linux tools .\n\033[1;m")
+						print ("\033[1;32mSelect a category or press (0) to install all Kali Linux tools .\n\033[1;m")
 
 						opcion1 = raw_input("\033[1;36mkat > \033[1;m")
 						if opcion1 == "back":

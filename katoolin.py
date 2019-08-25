@@ -6,7 +6,7 @@ import sys, traceback
 
 if os.getuid() != 0:
 	print ("Error: This script must be run as a sudo priviledged user.")
-	print ("Ex: python sudo " + sys.argv[0] + "\n")
+	print ("Ex: sudo python " + sys.argv[0] + "\n")
 	sys.exit()
 def main():
 	try:

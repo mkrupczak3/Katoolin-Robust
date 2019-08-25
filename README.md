@@ -1,44 +1,51 @@
 ![katoolin](https://github.com/mkrupczak3/Katoolin-Robust/blob/master/Katoolin-Robust-Screenshot_2019-06-29%2017-03-50.png)
 # Katoolin Robust
-Automatically install all Kali linux tools
+Automatically install all, or some, of Kali Linux tools.
 
 # New in this fork (from [Katoolin](https://github.com/LionSec/katoolin))
-Installs of multiple packages are performed sequentially rather than in bulk, so the install process doesn't fail if one or more packages fails to install
+Installs of multiple packages are performed sequentially rather than in bulk, so the install process will not fail if one or more packages fail to install.
 
-# Forker's note:
+## Forker's note:
 If you are interested in maintaining this fork as a hard fork alternative to Lionsec's Katoolin (non responsive to PR's and issues) please create an issue and assign me as a assigne and I'll consider transfering ownership. PR's are also welcome.
 
 # Features
-- Add Kali linux repositories
-- Remove kali linux repositories
-- Install Kali linux tools
+- Add Kali Linux repositories
+- Remove Kali Linux repositories
+- Install Kali Linux tools
 
 # Requirements
 - Python 2.7
-- An operating system (tested on Ubuntu)
+- Ubuntu 18.04+ (Only tested on Ubuntu)
 
 # Installation
-- sudo su
-- git clone https://github.com/mkrupczak3/Katoolin-Robust.git && cp Katoolin-Robust/katoolin.py /usr/bin/katoolin
-- chmod +x /usr/bin/katoolin
-- sudo katoolin
+```shell
+sudo su
+
+git clone https://github.com/mkrupczak3/Katoolin-Robust.git && cp Katoolin-Robust/katoolin.py /usr/bin/katoolin
+
+chmod +x /usr/bin/katoolin
+
+sudo katoolin
+```
 
 # Video
 https://www.youtube.com/watch?v=8VxCWVoZEEE
 
 # Usage
-- Typing the number of a tool will install it
-- Typing 0 will install all Kali Linux tools
-- back : Go back
+- Typing the number of a tool will begin the install of it.
+- Typing 0 will install all Kali Linux tools.
+- back : Go back to previous menu
 - gohome : Go to the main menu
-- By installing armitage , you will install metasploit
+
+# Notes
+- By installing Armitage, you will all be installing metasploit, as it is a dependency.
 
 # Warning
-Before updating your system , please remove all Kali-linux repositories to avoid any kind of problem .
+Before updating your system, please remove all Kali Linux repositories to avoid any problems.
 
 
 
-# I have some questions!
+## I have some questions!
 _forker's note: Lionsec does not appear to be responding to most forms of contact_
 
 ~~Please visit https://github.com/LionSec/katoolin/issues

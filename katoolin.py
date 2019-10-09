@@ -534,7 +534,7 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							elif opcion2 == "32":
 								cmd = os.system("apt-get install wifite")
 							elif opcion2 == "0":
-								cmd = os.system("for apackage in aircrack-ng asleap bluelog blueranger bluesnarfer bully cowpatty crackle eapmd5pass fern-wifi-cracker ghost-phisher giskismet gqrx kalibrate-rtl killerbee kismet mdk3 mfcuk mfoc mfterm multimon-ng pixiewps reaver redfang spooftooph wifi-honey wifitap wifite; apt-get install -y $apackage; done;")
+								cmd = os.system("for apackage in aircrack-ng asleap bluelog blueranger bluesnarfer bully cowpatty crackle eapmd5pass fern-wifi-cracker ghost-phisher giskismet gqrx kalibrate-rtl killerbee kismet mdk3 mfcuk mfoc mfterm multimon-ng pixiewps reaver redfang spooftooph wifi-honey wifitap wifite; do apt-get install -y $apackage; done;")
 							elif opcion2 == "back":
 								inicio()
 							elif opcion2 == "gohome":
@@ -834,7 +834,7 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							elif opcion2 == "gohome":
 								inicio1()
 							elif opcion2 == "0":
-								cmd = os.system("for apackage in cryptcat cymothoa dbd dns2tcp http-tunnel httptunnel intersect nishang polenum powersploit pwnat ridenum sbd u3-pwn webshells weevely; do apt-get install -y $apackage; done")
+								cmd = os.system("for apackage in cryptcat cymothoa dbd dns2tcp http-tunnel httptunnel intersect nishang polenum powersploit pwnat ridenum sbd u3-pwn webshells weevely; do apt-get install -y $apackage; done;")
 							else:
 								print ("\033[1;31mSorry, that was an invalid command!\033[1;m")
 						while opcion1 == "7":
@@ -881,7 +881,7 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							elif opcion2 == "gohome":
 								inicio1()
 							elif opcion2 == "0":
-								cmd = os.system("for apackage in casefile cutycapt dos2unix dradis keepnote magictree metagoofil nipper-ng pipal do apt-get install -y $apackage; done;")
+								cmd = os.system("for apackage in casefile cutycapt dos2unix dradis keepnote magictree metagoofil nipper-ng pipal; do apt-get install -y $apackage; done;")
 							else:
 								print ("\033[1;31mSorry, that was an invalid command!\033[1;m")
 
@@ -953,7 +953,7 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							elif opcion2 == "gohome":
 								inicio1()
 							elif opcion2 == "0":
-								cmd = os.system("for apackage in armitage backdoor-factory cisco-auditing-tool cisco-global-exploiter cisco-ocs cisco-torch crackle jboss-autopwn linux-exploit-suggester maltego-teeth set shellnoob sqlmap thc-ipv6 yersinia beef-xss; do apt-get install -y $apackage; done")
+								cmd = os.system("for apackage in armitage backdoor-factory cisco-auditing-tool cisco-global-exploiter cisco-ocs cisco-torch crackle jboss-autopwn linux-exploit-suggester maltego-teeth set shellnoob sqlmap thc-ipv6 yersinia beef-xss; do apt-get install -y $apackage; done;")
 							else:
 								print ("\033[1;31mSorry, that was an invalid command!\033[1;m")
 
@@ -1205,7 +1205,7 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							elif opcion2 == "gohome":
 								inicio1()
 							elif opcion2 == "0":
-								cmd = os.system("for apackage in acccheck burpsuite cewl chntpw cisco-auditing-tool cmospwd creddump crunch findmyhash gpp-decrypt hash-identifier hexorbase john johnny keimpx maltego-teeth maskprocessor multiforcer ncrack oclgausscrack pack patator polenum rainbowcrack rcracki-mt rsmangler statsprocessor thc-pptp-bruter truecrack webscarab wordlists zaproxy; do apt-get install -y $apackage; done;")
+								cmd = os.system("for apackage in acccheck burpsuite cewl chntpw cisco-auditing-tool cmospwd creddump crunch findmyhash gpp-decrypt hash-identifier hexorbase john johnny keimpx maltego-teeth maskprocessor multiforcer ncrack oclgausscrack pack patator polenum rainbowcrack rcracki-mt rsmangler statsprocessor thc-pptp-bruter truecrack webscarab wordlists zaproxy; do apt-get install -y $apackage; done")
 							else:
 								print ("\033[1;31mSorry, that was an invalid command!\033[1;m")
 						while opcion1 == "12" :
@@ -1297,7 +1297,7 @@ For more information , please visit : http://www.florian-diesch.de/software/clas
 							elif opcion2 == "gohome":
 								inicio1()
 							elif opcion2 == "0":
-								cmd = os.system("for apackage in android-sdk apktool arduino dex2jar sakis3g smali; apt-get install -y $apackage; done;")
+								cmd = os.system("for apackage in android-sdk apktool arduino dex2jar sakis3g smali; do apt-get install -y $apackage; done;")
 							else:
 								print ("\033[1;31mSorry, that was an invalid command!\033[1;m")
 						while opcion1 == "14" :

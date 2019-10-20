@@ -11,10 +11,6 @@ It doesn't have a picture of a [skull](https://youtu.be/8JOpPNra4bw) on it thoug
 # New in this fork (from [Katoolin](https://github.com/LionSec/katoolin))
 Installs of multiple packages are performed sequentially rather than in bulk, so the install process will not fail if one or more packages fail to install.
 
-## Forker's note:
-If you are interested in maintaining this fork as a hard fork alternative to Lionsec's Katoolin (non responsive to PR's and issues) please create an issue and assign me as a assigne and I'll consider transfering ownership. PR's are also welcome.
-
-
 # Features
 - Add Kali Linux repositories
 - Remove Kali Linux repositories

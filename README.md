@@ -6,6 +6,8 @@ Automatically install all, or some, of Kali Linux tools.
 # Alternatives
 ## A better, alternative fork can be found [here](https://github.com/s-h-3-l-l/katoolin3) with more up to date package lists and a more modular code structure.
 
+It doesn't have a picture of a [skull](https://youtu.be/8JOpPNra4bw) on it though, so if you still feel like forking this repo, do what you want I guess
+
 # New in this fork (from [Katoolin](https://github.com/LionSec/katoolin))
 Installs of multiple packages are performed sequentially rather than in bulk, so the install process will not fail if one or more packages fail to install.
 
